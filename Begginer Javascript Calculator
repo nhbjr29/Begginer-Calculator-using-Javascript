@@ -1,1 +1,30 @@
 
+<!DOCTYPE html>
+ <html>
+  <head><title>Begginer Calculator</title></head>
+  <body>
+    <h1>Javascript Begginer Calculator using Javascript</h1>
+    <script>
+// Declare variables to store the operands and the result
+var num1, num2, result;
+
+// Prompt the user to enter the first operand
+num1 = window.prompt("Enter the first operand:");
+
+// Convert the operand to a number (using the + operator)
+num1 = +num1;
+
+// Prompt the user to enter the second operand
+num2 = window.prompt("Enter the second operand:");
+
+// Convert the operand to a number (using the + operator)
+num2 = +num2;
+
+// Perform the calculation and store the result
+result = num1 + num2;
+
+// Display the result to the user
+window.alert("The result is: " + result);
+    </script>
+  </body>
+</html>
